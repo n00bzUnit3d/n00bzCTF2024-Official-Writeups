@@ -1,0 +1,76 @@
+/* Basic reset to remove default padding and margin */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00bcff;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar .nav-links {
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff6347;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .nav-links li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            border: none;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100px; /* Set a desired width for the images */
+            height: auto; /* Maintain aspect ratio */
+        }

